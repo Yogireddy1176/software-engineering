@@ -7,10 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1OUN3wWCwt-YlyWDPBIgnmvYLDXE40Fti
 """
 
-#whether modelling using the Quadratic Equation
-a = 5
-b = 4
-c = 6
-x = 4.5
-y = a * x ** 2 + b * x + c
-print("for the values of ",a, " " ,b, " " , " " ,c)
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+c=int(input("enter the value of c:"))
+x=int(input("enter the value of x:"))
+y=0
+y = a*(x*x)+b*x+c;
+print("for the values:a",a,"b",b,"c",c,"y is:",y)
